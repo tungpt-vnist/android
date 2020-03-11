@@ -1,0 +1,63 @@
+<MainWindow>:
+
+    GridLayout:
+
+        cols : 1
+        size: root.width , root.height
+        font_size: '30sp'
+
+        Label :
+            text: "Camera"
+            size : self.texture_size
+            text_size: self.size
+            font_size: '30sp'
+        GridLayout:
+            cols : 2
+            Label:
+                text: "camera"
+                size: self.texture_size
+                text_size: self.size
+                halign: 'left'
+                font_size: '25sp'
+
+            Switch:
+                id : 1
+            Label:
+                text: "Chup anh"
+                size: self.texture_size
+                text_size: self.size
+                halign: 'left'
+                font_size: '25sp'
+            Switch:
+                id: 2
+        Button:
+            text: "Xem dung luong gui nhan camera"
+        Label:
+            text: " chuc nang tiep theo"
+            size: self.texture_size
+            text_size: self.size
+            halign: 'left'
+            font_size: '30sp'
+        GridLayout:
+            cols : 2
+            Label:
+                text: "abc"
+                size: self.texture_size
+                text_size: self.size
+                halign: 'left'
+                font_size: '25sp'
+
+            Switch:
+                id : 4
+            Label:
+                text: "xyz"
+                size: self.texture_size
+                text_size: self.size
+                halign: 'left'
+                font_size: '25sp'
+            Switch:
+                id: 4
+        Button:
+            text: "Xem dung luong gui nhan camera"
+        Button:
+            text: "ket noi voi drone"
